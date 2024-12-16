@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
   	extend: {
+      screens: {
+        flip: '520px'
+      },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

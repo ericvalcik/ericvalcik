@@ -6,16 +6,18 @@ import { CardBody, CardContainer } from "@/components/ui/3d-card";
 
 export default function ThreeDCardDemo() {
   return (
-    <CardContainer className="w-screen h-screen flex flex-col items-center">
-      <CardBody>
+    <div className="w-screen h-screen flex flex-row items-center justify-center">
+    <CardContainer>
+      <CardBody className="w-[481px] h-[302px] overflow-hidden rounded-[16px] shadow-md rotate-90 flip:rotate-0">
           <Image
             src="/final.png"
             height="302"
             width="481"
-            className="object-cover rounded-[16px] group-hover/card:shadow-xl"
+            className="object-top"
             alt="thumbnail"
           />
       </CardBody>
     </CardContainer>
+    </div>
   );
 }
