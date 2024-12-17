@@ -6,7 +6,7 @@ import { CardBody, CardContainer } from "@/components/ui/3d-card";
 
 export default function ThreeDCardDemo() {
   return (
-    <div className="w-screen h-screen flex flex-row items-center justify-center">
+    <div className="w-dvw h-dvh flex flex-row items-center justify-center">
     <CardContainer>
       <CardBody className="flip:hidden h-[481px] w-[302px] overflow-hidden rounded-[16px] shadow-md">
           <Image
